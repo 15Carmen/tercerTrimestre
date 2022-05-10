@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="movimientos.xsl"?>
+<!--<?xml-stylesheet type="text/xsl" href="ingresos.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="gastos.xsl"?>-->
+
+<movimientos xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+             xs:noNamespaceSchemaLocation="movimientos.xsd">
+    <movimiento>
+        <Concepto>Alquiler</Concepto>
+        <Cantidad>-725</Cantidad>
+    </movimiento>
+
+    <movimiento>
+        <Concepto>Compra Mercadona</Concepto>
+        <Cantidad>-50</Cantidad>
+    </movimiento>
+
+    <movimiento>
+        <Concepto>Compra farmacia</Concepto>
+        <Cantidad>-15.67</Cantidad>
+    </movimiento>
+
+    <movimiento>
+        <Concepto>Compra Shein</Concepto>
+        <Cantidad>-72</Cantidad>
+    </movimiento>
+
+    <movimiento>
+        <Concepto>bizum Paula</Concepto>
+        <Cantidad>40</Cantidad>
+    </movimiento>
+    <movimiento>
+        <Concepto>transferencia Papá</Concepto>
+        <Cantidad>1000</Cantidad>
+    </movimiento>
+
+    <movimiento>
+        <Concepto>pago seguro Helvetia</Concepto>
+        <Cantidad>-37</Cantidad>
+    </movimiento>
+
+    <movimiento>
+        <Concepto>bizum María</Concepto>
+        <Cantidad>12</Cantidad>
+    </movimiento>
+
+    <movimiento>
+        <Concepto>uber eats</Concepto>
+        <Cantidad>-20</Cantidad>
+    </movimiento>
+
+    <movimiento>
+        <Concepto>bizum Candela</Concepto>
+        <Cantidad>13</Cantidad>
+    </movimiento>
+</movimientos>
