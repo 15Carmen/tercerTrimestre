@@ -9,17 +9,15 @@
                         <th style="text-align:center">Concepto</th>
                         <th style="text-align:center">Cantidad</th>
                     </tr>
-                    <xsl:for-each select="movimientos/movimiento">
-                        <xsl:if test="Cantidad&lt;0">
-                            <tr>
-                                <td>
-                                    <xsl:value-of select="Concepto"/>
-                                </td>
-                                <td>
-                                    <xsl:value-of select="Cantidad"/>
-                                </td>
-                            </tr>
-                        </xsl:if>
+                    <xsl:for-each select="movimientos/movimiento[Cantidad&lt;0]">
+                        <tr>
+                            <td>
+                                <xsl:value-of select="Concepto"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="Cantidad"/>
+                            </td>
+                        </tr>
                     </xsl:for-each>
                 </table>
             </body>
